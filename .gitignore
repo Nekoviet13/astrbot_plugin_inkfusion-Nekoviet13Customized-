@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+.conda
+.venv
+
+# 配置文件（包含敏感信息）
+config.yaml
+config.yml
+*.local.yaml
+*.local.yml
+
+# JSON 数据文件
+*.json
+!package.json
+
+# 作品集数据（不提交图片）
+sd_images_gallery/
+gallery_index.json
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 系统文件
+.directory
